@@ -49,6 +49,18 @@ body {
   top: 0;
 }
 
+.hl {
+  border-bottom: 6px solid #e2635c;
+  width: 70px;
+  margin: 0 auto;
+}
+
+.hl-sm {
+  border-bottom: 3px solid #e2635c;
+  width: 35px;
+  margin: 0 auto;
+}
+
 .timer div {
   float: right;
   width: 125px;
@@ -57,6 +69,148 @@ body {
 .timer h3 {
   font-weight: 100;
   font-size: 18px;
+}
+
+.about-event {
+  background-image: url("elevation_bg.png");
+  background-color: #fff;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'HelveticaNeueLTStd', Helvetica, Arial, sans-serif;
+  color: #000;
+}
+
+.about-content {
+  text-align: center;
+  padding: 20px 15%;
+}
+
+.about-content h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.about-content h2 {
+  font-size: 20px;
+  color: #e2635c;
+  font-weight: 600;
+}
+
+.about-content h3 {
+  font-weight: 100;
+}
+
+.wrapper {
+  background-image: url("dotted_bg.png");
+  background-size: 95%;
+  background-position: center top 53px;
+  background-repeat: no-repeat;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+}
+
+.cf {
+  z-index: 0;
+}
+
+.module {
+  /* padding: 150px 0; */
+  z-index: 1;
+  width: 100%;
+}
+
+.four-up {
+  text-align: center;
+  clear: both;
+}
+
+.four-up .grid-1-4 {
+  width: 20%;
+  display: inline-block;
+  float: none;
+  margin-top: 20px;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.four-up img {
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+.grid-1-4 h4 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.grid-1-4 p {
+  margin: 10px 0;
+}
+
+.ps-box-icon {
+  background: #e2635c;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.ps-box-icon img {
+  height: 60px;
+  width: 60px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1125px) {
+  .timer div {
+      width: 100px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .countdown h1 {
+    font-size: 30px;
+  }
+
+  .countdown h2 {
+    font-size: 20px;
+  }
+
+  .info {
+    padding: 25px 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .info {
+    padding: 30px 0;
+  }
+
+  .countdown h1 {
+    font-size: 25px;
+  }
+
+  .countdown h2 {
+    font-size: 15px;
+  }
+
+  .timer {
+    font-size: 40px;
+    padding: 35px 0;
+  }
+
+  .timer div {
+    width: 75px;
+  }
+
+  .vl {
+    height: 55%;
+  }
 }
 
 @media screen and (max-width: 479px) {
